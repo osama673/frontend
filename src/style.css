@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-list {
+  border-radius: 8px;
+}
+
+.ant-card-meta-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ant-list-item-meta-title {
+  width: 300px;
+}
